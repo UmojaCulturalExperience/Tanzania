@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Umoja Cultural Experience | Culture & Activites</title>
+ <style>
+  /* --------------------------------------------------
+     COLOR SYSTEM
+  -------------------------------------------------- */
+  :root {
+    --bg: #0b1120;               /* Deep navy */
+    --card-bg: #ffffff;          /* Clean white */
+    --text: #e5e7eb;             /* Soft gray-white */
+    --muted: #9ca3af;            /* Muted gray */
+    --accent: #14b8a6;           /* Bright teal */
+    --accent-2: #0d9488;         /* Deeper teal */
+    --shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  /* --------------------------------------------------
+     GLOBAL
+  -------------------------------------------------- */
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Inter, system-ui, Segoe UI, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  header {
+    padding: 56px 20px 40px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(20, 184, 166, 0.08), transparent);
+  }
+
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto 22px;
+    display: block;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  p.lead {
+    margin: 16px 0 24px;
+    color: var(--muted);
+    font-size: 17px;
+  }
+
+  /* --------------------------------------------------
+     CARD
+  -------------------------------------------------- */
+  .card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: var(--shadow);
+    color: #111;
+    margin-bottom: 20px;
+  }
+
+  /* --------------------------------------------------
+     GRID
+  -------------------------------------------------- */
+  .grid {
+    display: grid;
+    gap: 20px;
+  }
+
+  .two {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .four {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  /* --------------------------------------------------
+     OPTIONS
+  -------------------------------------------------- */
+  .option img {
+    width: 100%;
+    max-width: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .option h3 {
+    margin: 12px 0 6px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  /* --------------------------------------------------
+     BUTTONS & LINKS
+  -------------------------------------------------- */
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    padding: 12px 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: background 0.2s ease;
+  }
+
+  .btn:hover {
+    background: var(--accent-2);
+  }
+
+  .social a {
+    margin: 0 10px;
+    color: var(--accent-2);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  /* --------------------------------------------------
+     FOOTER
+  -------------------------------------------------- */
+  footer {
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 15px;
+  }
+
+  /* --------------------------------------------------
+     RESPONSIVE
+  -------------------------------------------------- */
+  @media (max-width: 640px) {
+    h1 {
+      font-size: 24px;
+    }
+    .logo {
+      max-width: 180px;
+    }
+    .two {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+      <link rel="icon" href="./UMOJA LOGO-1.png">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <!-- Logo (user-provided file). The path will be transformed to a usable URL by the system -->
+      <img class="logo" src="./UMOJA LOGO-1.png" alt="Umoja Cultural Experience logo" />
+      <h1>Umoja Cultural Experience</h1>
+      <p class="lead">Culture & Activites</p>
+    </div>
+  <a href="index.html" 
+     style="color:#00A3DD; font-weight:600; text-decoration:none;">
+     Home
+  </a>
+    </header>
+
+  <main class="container" style="padding:0px 0px">
+
+    <section class="card">
+      <div class="grid four" style="margin-top:12px">
+        <div class="option card">
+          <h3>At Umoja Cultural Experience, we offer an excellent blend of volunteer work and cultural activities.<br><br>
+
+Tanzania is a culturally rich country! With over 120 ethnic groups, each with their own distinct traditions, languages, and customs, it's a fascinating place to explore. The Sukuma, Maasai, and Hadzabe are just a few examples of the many tribes that contribute to Tanzania's diverse cultural landscape. It's amazing to see how these groups have maintained their unique identities despite the influences of modernization and globalization.<br><br>
+
+Under cultural activities, we have:<br><br>
+
+Learning basic Swahili language<br>
+
+Traditional dance<br>
+
+Traditional food<br>
+
+Batik lessons<br>
+
+The history of key native tribes (Chagga and Maasai tribes)<br><br>
+
+Discover the vibrant cultures of Tanzania's Chagga and Maasai tribes. Experience their traditions, customs, and daily life firsthand. Learn about the Chagga's skilled farming and the Maasai's nomadic herding ways. Immerse yourself in their rich heritage and enjoy warm Tanzanian hospitality.
+                  <div style="display: flex; align-items: center; margin-bottom: 12px;">
+  <span style="margin-right: 12px;">Traditional Dance:</span>
+  <img style="width:500px; height:auto;" src="dance.jpg" alt="Traditional Dance" />
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 12px;">
+  <span style="margin-right: 12px;">Traditional Food:</span>
+  <img  style="width:500px; height:auto;" src="food.jpg" alt="Traditional Food" />
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 12px;">
+  <span style="margin-right: 12px;">The Maasai Community:</span>
+  <img style="width:500px; height:auto;" src="maasai.jpg" alt="The Maasai Community" />
+</div>
+          </h3>
+                            </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Umoja Cultural Experience • North Tanzania, East Africa</p>
+      <p style="font-size:13px;color:var(--muted)">© <span id="year"></span> Umoja Cultural Experience</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

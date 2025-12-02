@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Umoja Cultural Experience</title>
+ <style>
+  /* --------------------------------------------------
+     COLOR SYSTEM
+  -------------------------------------------------- */
+  :root {
+    --bg: #0b1120;               /* Deep navy */
+    --card-bg: #ffffff;          /* Clean white */
+    --text: #e5e7eb;             /* Soft gray-white */
+    --muted: #9ca3af;            /* Muted gray */
+    --accent: #14b8a6;           /* Bright teal */
+    --accent-2: #0d9488;         /* Deeper teal */
+    --shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  /* --------------------------------------------------
+     GLOBAL
+  -------------------------------------------------- */
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Inter, system-ui, Segoe UI, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  header {
+    padding: 56px 20px 40px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(20, 184, 166, 0.08), transparent);
+  }
+
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto 22px;
+    display: block;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  p.lead {
+    margin: 16px 0 24px;
+    color: var(--muted);
+    font-size: 17px;
+  }
+
+  /* --------------------------------------------------
+     CARD
+  -------------------------------------------------- */
+  .card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: var(--shadow);
+    color: #111;
+    margin-bottom: 20px;
+  }
+
+  /* --------------------------------------------------
+     GRID
+  -------------------------------------------------- */
+  .grid {
+    display: grid;
+    gap: 20px;
+  }
+
+  .two {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .four {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  /* --------------------------------------------------
+     OPTIONS
+  -------------------------------------------------- */
+  .option img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .option h3 {
+    margin: 12px 0 6px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  /* --------------------------------------------------
+     BUTTONS & LINKS
+  -------------------------------------------------- */
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    padding: 12px 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: background 0.2s ease;
+  }
+
+  .btn:hover {
+    background: var(--accent-2);
+  }
+
+  .social a {
+    margin: 0 10px;
+    color: var(--accent-2);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  /* --------------------------------------------------
+     FOOTER
+  -------------------------------------------------- */
+  footer {
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 15px;
+  }
+
+  /* --------------------------------------------------
+     RESPONSIVE
+  -------------------------------------------------- */
+  @media (max-width: 640px) {
+    h1 {
+      font-size: 24px;
+    }
+    .logo {
+      max-width: 180px;
+    }
+    .two {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+      <link rel="icon" href="./UMOJA LOGO-1.png">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <!-- Logo (user-provided file). The path will be transformed to a usable URL by the system -->
+      <img class="logo" src="./UMOJA LOGO-1.png" alt="Umoja Cultural Experience logo" />
+      <h1>Welcome to Umoja Cultural Experience</h1>
+      <p class="lead">Umoja Cultural Experience is an organization based in North Tanzania, East Africa. We connect international volunteers with local projects focused on sustainable impact.</p>
+    </div>
+    <div style="margin-top:12px; text-align:center;">
+
+  <a href="founders.html" 
+     style="color:#00A3DD; font-weight:600; text-decoration:none;">
+     About the Founders
+  </a>
+    <a href="culture.html" 
+     style="color:#00A3DD; font-weight:600; text-decoration:none;">
+     |  Culture & Activities
+  </a>
+</div>
+
+  </header>
+
+  <main class="container" style="padding:26px 20px">
+    <section class="card">
+      <h2>Our Mission</h2>
+      <p>To operate volunteering programs in Tanzania, in partnership with international volunteers and with key focus on sustainable development goals (SDGs) specifically on quality education, climate action, good health and well being.</p>
+    </section>
+
+    <section class="card">
+      <h2>Our Vision</h2>
+      <p>To create a world where communities share meaningful cultures and experience for sustainable society. Join Umoja's initiative to make a difference in Tanzania! Volunteer with us in education, health, environment, and cultural immersion projects. Contribute your skills, learn from our communities, and experience the warmth of Tanzanian culture. Together, let's create positive change and unforgettable memories.</p>
+    </section>
+
+    <section class="card two">
+      <div>
+        <h3>What we provide</h3>
+        <ul>
+          <li>Excellent, safe and secure housing</li>
+          <li>All meals included</li>
+          <li>Transport to and from the airport</li>
+          <li>WiFi and local transport to placements</li>
+          <li>Safety is our number one priority</li>
+        </ul>
+        <a class="btn" href="https://culo72cd.forms.app/volunteer-application-form" target="_blank">Apply Now</a>
+      </div>
+      <div>
+        <h3>Contact & Social</h3>
+        <p>Email: <a href="mailto:kadoorotta405@gmail.com">kadoorotta405@gmail.com</a></p>
+        <p>Phone: +255 659217159</p>
+        <p class="social">
+          <a href="https://www.facebook.com/profile.php?id=61551828032399&mibextid=LQQJ4d"  target="_blank">Facebook</a> · <a href="https://www.instagram.com/umojaculturalexperience_uce_tz?igsh=bW1jeDlhMTVqMzB3&utm_source=ig_contact_invite"  target="_blank">Instagram</a>
+        </p>
+      </div>
+    </section>
+
+ <section class="card">
+  <h2>Volunteering Options</h2>
+<a href="UCE BRIEFING.pdf" target="_blank" download class="download-btn">Download Programs PDF</a>
+  <div class="grid four" style="margin-top:12px">
+
+    <!-- Card Template -->
+    <div class="option card" onclick="toggleCard(this)">
+      <img src="./PHOTO-2025-11-24-16-10-24.jpg" alt="Daycare volunteer" />
+      <h3>Volunteer in a Daycare</h3>
+      <p class="lead" style="margin:0;color:var(--muted)">Support early childhood learning and care.</p>
+
+      <button style="margin-top:10px;background:none;border:2px solid var(--accent);padding:6px 10px;border-radius:8px;color:var(--accent);cursor:pointer;font-weight:600;width:100%;">
+        Show more ▼
+      </button>
+
+      <div class="more" style="display:none; margin-top:10px;">
+This is specifically for the Volunteers who have shown interest working with students at
+Nursery Level; Early Childhood Education from age 3 to 5 and Primary pupils. <br><br>
+Volunteering as a teacher in a school abroad is a unique and enriching experience. It allows
+volunteers to share their experience with children, while also learning from them. Volunteers
+may assist in the classroom by helping the students with their assignments, planning lessons, or
+teaching new subjects. They may also lead extracurricular activities, such as sports, musics, or
+art.<br><br>
+This opportunity not only provides an enriching experience for the children, but also help
+volunteers develop their communication, leadership, and cultural awareness skills. Volunteering
+in a daycare school provides an opportunity to experience different culture, learn a new
+language, and connect with local families.<br> <br>
+Working with children requires patience, the experience enhance volunteer’s creativity, and the
+ability to work with diverse groups of people. These are valuable skills that can be applied to
+many aspects of life. <br><br>
+The classroom structure might include an ideal number of 20 to 30 kids and the Volunteer will
+work with a local teacher from the school. An In country Volunteer maybe assigned to work with
+the Volunteer especially where language barrier apply. The Nursery school session commence
+from 8am to 11:30 am.    
+ <br><br> <br>
+VOLUNTEERING ACTIVITIES
+ <br><br>
+Teach reading, writing, and basic mathematics (counting, addition)
+ <br><br>
+Facilitate extra-curriculum activities; sports, games, songs, and arts and crafts
+Assess the development and the progress of the students by helping to create testing
+procedures and standards <br><br>
+Organize and prepare lesson plans <br><br>
+Work with the teacher to develop pre-school activities and materials to use throughout
+the year <br><br> <br>
+EDUCATION EXCHANGE SESSIONS <br><br>
+We all understand that education is the foundation of our society and is essential for personal and
+economic development. During the education talk session, volunteers will have an opportunity to have a
+close look at the structure and content of Tanzanian Education System, as well as its approach to teaching
+and assessment. <br><br>
+The session will also take a close look at the challengers and opportunities that exists within the current
+system; and a discussion of any recent or ongoing education reforms or initiatives.  <br><br>
+UCE volunteers will be exposed into Education System offered by the Government of the United
+Republic of Tanzania. Through Education Talk and Education Exchange Program, volunteers
+will learn different levels of education offered; Pre-school, Primary Education, Secondary
+Education and Collage/University level facilitated by Education expertise. <br><br>
+During Education Exchange Program, UCE volunteers will have an opportunity to interact with
+local students at the collage lever through moderated dialog. This session focus on brief learning
+on similarities, difference, strengths and weaknesses of both Education Systems; Tanzania
+Education System In comparison with Education System of the volunteers country of Origin.
+
+</div>
+    </div>
+
+    <div class="option card" onclick="toggleCard(this)">
+      <img src="./PHOTO-2025-11-24-16-10-24 (1).jpg" alt="Health center volunteer" />
+      <h3>Volunteer in the Health Center</h3>
+      <p class="lead" style="margin:0;color:var(--muted)">Assist with community health outreach and clinics.</p>
+
+      <button style="margin-top:10px;background:none;border:2px solid var(--accent);padding:6px 10px;border-radius:8px;color:var(--accent);cursor:pointer;font-weight:600;width:100%;">
+        Show more ▼
+      </button>
+
+      <div class="more" style="display:none; margin-top:10px;">
+This is best for the Health Practitioner Volunteers, and students enrolled in any health related studies, such as medical students, nurses, public health, nutritionists and any other interns or persons with experience in health provision services.<br><br>
+Our goal is to improve the health of vulnerable populations in Tanzania Communities by providing Health Education. We recognize that health is a basic human right, and we are committed to making a positive impact in communities where access to healthcare is limited.<br><br>
+Whether it’s providing technical assistance, teaching basic hygiene practices, or offering health screenings, every volunteer makes a unique difference.<br><br>
+Our program brings volunteers from diverse backgrounds, creating a global community of care; together, we can address health issues that affect millions of people in Tanzania, such as Malaria, HIV/AIDS, and Malnutrition.<br><br>
+In addition to improving the health of the community, our program also provides volunteers with a unique opportunity to learn about different cultures and gain valuable life experience. By joining this program, you will not only be helping others but also embarking on a journey of personal growth and self-discovery. 
+<br> <br>
+VOLUNTEERING ACTIVITIES:<br><br>
+Offering health education; teach basic hygiene practices, nutrition, and preventive measures.<br><br>
+Assist in health clinics; work alongside local healthcare professionals to provide basic medical care such as taking vital signs and treating common illnesses.<br><br>
+Conducting Health Screenings; screen community members for conditions like diabetes, hypertension, or HIV/AIDS.<br><br>
+Administer vaccines; help vaccinate children and adults to prevent diseases such as polio, measles, and tetanus.<br><br>
+Other activities may include outreach volunteering, attending seminars and workshops, and data entry.<br><br>
+TANZANIAN HEALTH TALK:<br><br>
+Under this session, UCE Volunteers will have an opportunity to learn about the Tanzanian Health System, from health centers, referral hospitals/regional hospitals, to national hospitals.<br><br>
+During health talk sessions, UCE will invite qualified medical personnel, who will give an overview of the health system in Tanzania. UCE might also organize an exchange program, where the volunteers interact with local college/university students pursuing different health professions.     </div>
+    </div>
+
+    <div class="option card" onclick="toggleCard(this)">
+      <img src="./PHOTO-2025-11-24-17-01-15.jpg" alt="special needs assist volunteer" />
+      <h3>Volunteer to Help Kids with Disabilities / Special Needs</h3>
+      <p class="lead" style="margin:0;color:var(--muted)">Assist with special needs children and orphans.</p>
+
+      <button style="margin-top:10px;background:none;border:2px solid var(--accent);padding:6px 10px;border-radius:8px;color:var(--accent);cursor:pointer;font-weight:600;width:100%;">
+        Show more ▼
+      </button>
+
+      <div class="more" style="display:none; margin-top:10px;">
+Volunteering abroad in orphanages and with vulnerable children can be an eye-opening experience. It offers you the opportunity to make a difference in the lives of those who need it most and to gain a deeper understanding of the world.<br><br>
+
+By volunteering, you can provide emotional support, educational assistance, and basic needs such as food and shelter to children who have lost their parents or are living on the streets. You can also learn about the culture and society of the Tanzanian people, which can help broaden your perspective on life.<br><br>
+
+Imagine if you were a child with no home to sleep in, and perhaps no family to protect you. It would be difficult to obtain your daily necessities without guidance, and even more difficult to access education or simply enjoy being young.<br><br>
+
+Many children around the world run away from home, are abandoned, orphaned, or live in desolate areas. Some have special needs or disabilities without access to rehabilitation. Some just need someone to play with and give them love and care. As an international volunteer, you have the opportunity to extend love and support to them through this program.<br><br>
+
+VOLUNTEERING ACTIVITIES:<br><br>
+
+Providing Educational Support: Teaching basic English and reading books<br>
+
+Offering Emotional Support: Spending time with the children, playing games, doing art, and listening to their stories<br>
+
+Guidance and Counseling: Teaching moral guidance, manners, and good behavior      </div>
+    </div>
+
+    <div class="option card" onclick="toggleCard(this)">
+      <img src="./PHOTO-2025-11-24-17-00-34.jpg" alt="Juveniles center" />
+      <h3>Volunteer in the Juveniles Detention Center</h3>
+      <p class="lead" style="margin:0;color:var(--muted)">Work on education and rehabilitation programs.</p>
+
+      <button style="margin-top:10px;background:none;border:2px solid var(--accent);padding:6px 10px;border-radius:8px;color:var(--accent);cursor:pointer;font-weight:600;width:100%;">
+        Show more ▼
+      </button>
+
+      <div class="more" style="display:none; margin-top:10px;">
+        Support rehabilitation efforts through mentorship, tutoring, sports, and constructive life skills sessions.
+      </div>
+    </div>
+
+
+    <div class="option card" onclick="toggleCard(this)">
+      <img src="./PHOTO-2025-11-24-16-19-27.jpg" alt="Climate activities" />
+      <h3>Climate Activities</h3>
+      <p class="lead" style="margin:0;color:var(--muted)">Planting and other climate improvement activities.</p>
+
+      <button style="margin-top:10px;background:none;border:2px solid var(--accent);padding:6px 10px;border-radius:8px;color:var(--accent);cursor:pointer;font-weight:600;width:100%;">
+        Show more ▼
+      </button>
+
+      <div class="more" style="display:none; margin-top:10px;">
+Climate change is one of the most pressing issues of our time, with far-reaching consequences for our planet and our future. While government policies and corporate action are crucial in addressing this global challenge, individual efforts also play a significant role.<br><br>
+Our modern world is now experiencing a gradual increase in the average temperature of the Earth’s atmosphere and oceans, mostly caused by a build-up of greenhouse gases from burning fossil fuels like coal, oil, and natural gases. Rising sea levels, extreme weather, loss of natural habitats, and loss of human lives are just a few consequences.<br><br>
+Climate change volunteering is an intervention effort, providing people from all walks of life with an opportunity to make a positive impact. Whether it is helping with reforestation projects, raising awareness about climate change in a community, or supporting research and innovation, every small step counts.<br><br>
+UCE offers a special placement for volunteers who have shown interest in environmental conservation programs and are passionate about Environmental Sustainability and Global Climate Action.<br><br>
+During your volunteering period in Tanzania, you will learn about the local climate, weather patterns, environmental issues that affect the area, and natural disasters. During these sessions, you will learn about Government Sustainability efforts to reduce emissions, protect natural resources, and promote renewable energy. You will also learn about political and economic factors, understanding how politics and economics impact climate change, including any environmental policies or initiatives in the area.<br><br>
+
+VOLUNTEERING ACTIVITIES:<br><br>
+
+Planting trees<br>
+
+Participate in clean-up campaigns in the local community<br>
+
+Maintaining/improving water catchment areas<br>
+
+Educating the community about climate change by leading workshops and giving presentations<br>
+
+Sensitizing communities about environmental pollution, e.g., smoke and plastic materials      </div>
+    </div>
+        <div class="option card" onclick="toggleCard(this)">
+      <h3>Additional placements</h3>
+      <p class="lead" style="margin:0;color:var(--muted)">Women/Youth empowerment, Volunteer with RED CROSS Tanzania (Northern Zone), Social work Volunteer Program, Rehabilitation Centers, and more.</p>
+
+
+        </div>
+  </div>
+
+</section>
+
+<script>
+  function toggleCard(card) {
+    // Close all other cards
+    document.querySelectorAll(".option.card").forEach(c => {
+      if (c !== card) {
+        c.classList.remove("open");
+        let more = c.querySelector(".more");
+        let btn = c.querySelector("button");
+        if (more) more.style.display = "none";
+        if (btn) btn.textContent = "Show more ▼";
+      }
+    });
+
+    // Toggle current card
+    card.classList.toggle("open");
+    let more = card.querySelector(".more");
+    let btn = card.querySelector("button");
+
+    if (card.classList.contains("open")) {
+      more.style.display = "block";
+      btn.textContent = "Show less ▲";
+    } else {
+      more.style.display = "none";
+      btn.textContent = "Show more ▼";
+    }
+  }
+</script>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Umoja Cultural Experience • North Tanzania, East Africa</p>
+      <p style="font-size:13px;color:var(--muted)">© <span id="year"></span> Umoja Cultural Experience</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

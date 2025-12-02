@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Umoja Cultural Experience | Founders</title>
+ <style>
+  /* --------------------------------------------------
+     COLOR SYSTEM
+  -------------------------------------------------- */
+  :root {
+    --bg: #0b1120;               /* Deep navy */
+    --card-bg: #ffffff;          /* Clean white */
+    --text: #e5e7eb;             /* Soft gray-white */
+    --muted: #9ca3af;            /* Muted gray */
+    --accent: #14b8a6;           /* Bright teal */
+    --accent-2: #0d9488;         /* Deeper teal */
+    --shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  /* --------------------------------------------------
+     GLOBAL
+  -------------------------------------------------- */
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Inter, system-ui, Segoe UI, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  header {
+    padding: 56px 20px 40px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(20, 184, 166, 0.08), transparent);
+  }
+
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto 22px;
+    display: block;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  p.lead {
+    margin: 16px 0 24px;
+    color: var(--muted);
+    font-size: 17px;
+  }
+
+  /* --------------------------------------------------
+     CARD
+  -------------------------------------------------- */
+  .card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: var(--shadow);
+    color: #111;
+    margin-bottom: 20px;
+  }
+
+  /* --------------------------------------------------
+     GRID
+  -------------------------------------------------- */
+  .grid {
+    display: grid;
+    gap: 20px;
+  }
+
+  .two {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .four {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  /* --------------------------------------------------
+     OPTIONS
+  -------------------------------------------------- */
+  .option img {
+    width: 100%;
+    max-width: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .option h3 {
+    margin: 12px 0 6px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  /* --------------------------------------------------
+     BUTTONS & LINKS
+  -------------------------------------------------- */
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    padding: 12px 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: background 0.2s ease;
+  }
+
+  .btn:hover {
+    background: var(--accent-2);
+  }
+
+  .social a {
+    margin: 0 10px;
+    color: var(--accent-2);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  /* --------------------------------------------------
+     FOOTER
+  -------------------------------------------------- */
+  footer {
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 15px;
+  }
+
+  /* --------------------------------------------------
+     RESPONSIVE
+  -------------------------------------------------- */
+  @media (max-width: 640px) {
+    h1 {
+      font-size: 24px;
+    }
+    .logo {
+      max-width: 180px;
+    }
+    .two {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+      <link rel="icon" href="./UMOJA LOGO-1.png">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <!-- Logo (user-provided file). The path will be transformed to a usable URL by the system -->
+      <img class="logo" src="./UMOJA LOGO-1.png" alt="Umoja Cultural Experience logo" />
+      <h1>Umoja Cultural Experience</h1>
+      <p class="lead">Founder Information</p>
+    </div>
+  <a href="index.html" 
+     style="color:#00A3DD; font-weight:600; text-decoration:none;">
+     Home
+  </a>
+    </header>
+
+  <main class="container" style="padding:0px 0px">
+
+    <section class="card">
+      <div class="grid four" style="margin-top:12px">
+        <div class="option card">
+          <img  src="./9c3ccb05-cf05-4590-b551-a0776a63b841.jpeg" alt="Keyodo, Founder" />
+          <h3>Keyodo, Founder</h3>
+          <p class="lead" style="margin:0;color:var(--muted)">Hello, I'm Keydo, a passionate Tanzanian cultural enthusiast and founder of Umoja Cultural Organization. Our volunteering program connects global travelers with authentic Tanzanian experiences, fostering cross-cultural understanding and community development. Join us to immerse yourself in local traditions, support meaningful projects, and create lasting memories in the heart of Africa.</p>
+        </div>
+          <div class="option card">
+          <img src="./131ca7af-09d5-43ba-a9d4-752b1fba5d71.jpeg" alt="Lordiga, Cofounder" />
+          <h3>Lordiga, Cofounder</h3>
+          <p class="lead" style="margin:0;color:var(--muted)">My name is Lordiga, dedicated and experienced volunteer coordinator, committed to empowering local communities and enriching the volunteer experience in Tanzania. With a background in managing successful volunteer programs, he ensures that international volunteers make a meaningful difference during their time here. His passion for community development and cultural exchange drives Umoja's mission to create lasting connections between volunteers and Tanzanian communities.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Umoja Cultural Experience • North Tanzania, East Africa</p>
+      <p style="font-size:13px;color:var(--muted)">© <span id="year"></span> Umoja Cultural Experience</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
